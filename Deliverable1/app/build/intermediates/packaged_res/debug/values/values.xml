@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ending_times">
+        <item>8:30 AM</item>
+        <item>9:00 AM</item>
+        <item>9:30 AM</item>
+        <item>10:00 AM</item>
+        <item>10:30 AM</item>
+        <item>11:00 AM</item>
+        <item>11:30 AM</item>
+        <item>12:00 PM</item>
+        <item>12:30 PM</item>
+        <item>1:00 PM</item>
+        <item>1:30 PM</item>
+        <item>2:00 PM</item>
+        <item>2:30 PM</item>
+        <item>3:00 PM</item>
+        <item>3:30 PM</item>
+        <item>4:00 PM</item>
+        <item>4:30 PM</item>
+        <item>5:00 PM</item>
+    </array>
+    <array name="starting_times">
+        <item>8:00 AM</item>
+        <item>8:30 AM</item>
+        <item>9:00 AM</item>
+        <item>9:30 AM</item>
+        <item>10:00 AM</item>
+        <item>10:30 AM</item>
+        <item>11:00 AM</item>
+        <item>11:30 AM</item>
+        <item>12:00 PM</item>
+        <item>12:30 PM</item>
+        <item>1:00 PM</item>
+        <item>1:30 PM</item>
+        <item>2:00 PM</item>
+        <item>2:30 PM</item>
+        <item>3:00 PM</item>
+        <item>3:30 PM</item>
+        <item>4:00 PM</item>
+        <item>4:30 PM</item>
+    </array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Deliverable 1</string>
+    <string name="gcm_defaultSenderId" translatable="false">244224014477</string>
+    <string name="google_api_key" translatable="false">AIzaSyDDLXzA8iGaec5YFKcTjeIGJdR-fidLfB4</string>
+    <string name="google_app_id" translatable="false">1:244224014477:android:e284f6232237bfb21ccac4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDDLXzA8iGaec5YFKcTjeIGJdR-fidLfB4</string>
+    <string name="google_storage_bucket" translatable="false">patientanddoctorinfo.appspot.com</string>
+    <string name="project_id" translatable="false">patientanddoctorinfo</string>
+    <style name="Base.Theme.Deliverable1" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Deliverable1" parent="Base.Theme.Deliverable1"/>
+</resources>

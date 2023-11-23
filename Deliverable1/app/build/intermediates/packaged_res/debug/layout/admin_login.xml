@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/AdminTextView"
+        android:layout_width="348dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="252dp"
+        android:text="Welcome! You are logged in as admin"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible" /> <!-- Initially set to invisible -->
+
+    <Button
+        android:id="@+id/Log_offButton"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="92dp"
+        android:onClick="onClickLogoff"
+        android:text="Log off"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/RejectionButton2"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="456dp"
+        android:onClick="onClickRejection"
+        android:text="Rejection page"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/Log_offButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/InboxButton"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:onClick="onClickInbox"
+        android:text="Inbox page"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/RejectionButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--android:visibility="invisible"-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="274dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="100dp"
+        android:text="Doctor Registration form"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="72dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First name" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="First name" />
+
+        <!--Initial letters are capitalized and there are no spaces, numbers, symbols, etc.-->
+        <!--android:visibility="gone" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/lastnametextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last name" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editLastName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Last name" />
+
+        <!--Initial letters are capitalized and there are no spaces, numbers, symbols, etc.-->
+        <!--android:visibility="gone" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout15"
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="168dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/emailaddresstextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email address" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Email address"
+            android:inputType="textEmailAddress" />
+
+        <!--It will be the username and it consists of numbers, letters, symbols, etc. and must include @ and .-->
+        <!--android:visibility="gone" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="216dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/passwordInfoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account password" />
+
+        <Button
+            android:id="@+id/accountpasswordButton"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="？" /> <!--A secure password should consist of a minimum of 8 characters and include a mix of uppercase letters, lowercase letters, numbers, and symbols.-->
+        <!--android:visibility="gone" /> -->
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout16"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="264dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Account password"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout17"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editPasswordConfirmation"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Confirmed account password"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout16"
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/phonenumbertextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone number" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editPhone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Phone number"
+            android:inputType="phone" />
+
+        <!--Numbers only-->
+        <!-- android:visibility="gone" /> -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout17"
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="416dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/AddresstextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/AddressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Address" />
+
+        <!--Includes apartment number, street, city, state, and zip code.-->
+        <!--android:visibility="gone" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout18"
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="464dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/employeenumbertextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employee number" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/employeenumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Employee number" />
+
+        <!--Includes numbers and letters-->
+        <!--android:visibility="gone" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout19"
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="512dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/specialitiestextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Specialties " />
+
+        <Button
+            android:id="@+id/specialtiesButton"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="？" />
+        <!--A secure password should consist of a minimum of 8 characters and include a mix of uppercase letters, lowercase letters, numbers, and symbols.-->
+        <!--android:visibility="gone" /> -->
+
+        <!--e.g., family medicine, internal medicine, pediatrics, obstetrics, and gynecology-->
+        <!--android:visibility="gone" />-->
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editspecializations"
+        android:layout_width="405dp"
+        android:layout_height="43dp"
+        android:hint="Specialties"
+        app:layout_constraintBottom_toTopOf="@+id/submitButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout19"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="100dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="604dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="7dp"
+        android:text="submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

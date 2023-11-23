@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "244224014477",
+    "project_id": "patientanddoctorinfo",
+    "storage_bucket": "patientanddoctorinfo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244224014477:android:e284f6232237bfb21ccac4",
+        "android_client_info": {
+          "package_name": "com.example.deliverable1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDLXzA8iGaec5YFKcTjeIGJdR-fidLfB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

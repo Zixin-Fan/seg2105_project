@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/DoctortextView"
+        android:layout_width="348dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="252dp"
+        android:text="Welcome! You are logged in as doctor"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible" /> <!-- Initially set to invisible -->
+
+    <Button
+        android:id="@+id/Log_offbutton"
+        android:layout_width="148dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginBottom="212dp"
+        android:onClick="onClickLogoff"
+        android:text="Log off"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!--android:visibility="invisible"-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

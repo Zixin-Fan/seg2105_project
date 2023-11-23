@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.deliverable1.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_appointment_patient_information_page.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/appointment_patient_information_page.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_log_off.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/log_off.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_rejection_view.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/rejection_view.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_pend_appointment_page.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/pend_appointment_page.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.deliverable1.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_activity_rejected_registration.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/activity_rejected_registration.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_upcoming_shift_item.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/upcoming_shift_item.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.deliverable1.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_upcoming_appointment_item.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/upcoming_appointment_item.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_upcoming_shift_page.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/upcoming_shift_page.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.deliverable1.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.deliverable1.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_past_appointment_item.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/past_appointment_item.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_choose_signin_or_log_in.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/choose_signin_or_log_in.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_doctor_form.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/doctor_form.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_information_page.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/information_page.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_reject_item_page.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/reject_item_page.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.deliverable1.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_add_shift_page.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/add_shift_page.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.deliverable1.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.deliverable1.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_doctor_activity.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/doctor_activity.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_doctor_or_patient.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/doctor_or_patient.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.deliverable1.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.deliverable1.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_upcoming_appointments_page.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/upcoming_appointments_page.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_reject_information_page.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/reject_information_page.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_book_appointment_page.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/book_appointment_page.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_user_item.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/user_item.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_patient_form.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/patient_form.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_log_in.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/log_in.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_inbox_page.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/inbox_page.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_past_appointments_page.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/past_appointments_page.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_pending_appointment_item.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/pending_appointment_item.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.deliverable1.app-merged_res-36:/layout_admin_login.xml.flat",
+        "source": "com.example.deliverable1.app-main-38:/layout/admin_login.xml"
+    }
+]
